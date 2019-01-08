@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81E2743821E3B2FA00462380 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E2743721E3B2FA00462380 /* AppDelegate.swift */; };
+		81E2743A21E3B2FA00462380 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E2743921E3B2FA00462380 /* ViewController.swift */; };
+		81E2743D21E3B2FA00462380 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81E2743B21E3B2FA00462380 /* Main.storyboard */; };
+		81E2743F21E3B2FF00462380 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81E2743E21E3B2FF00462380 /* Assets.xcassets */; };
+		81E2744221E3B2FF00462380 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81E2744021E3B2FF00462380 /* LaunchScreen.storyboard */; };
+		81E2744D21E3B30000462380 /* learning_metalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E2744C21E3B30000462380 /* learning_metalTests.swift */; };
+		81E2745821E3B30000462380 /* learning_metalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E2745721E3B30000462380 /* learning_metalUITests.swift */; };
+		81E2746621E463F900462380 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 81E2746521E463F900462380 /* Shaders.metal */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81E2744921E3B30000462380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81E2742C21E3B2F900462380 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81E2743321E3B2FA00462380;
+			remoteInfo = learning_metal;
+		};
+		81E2745421E3B30000462380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81E2742C21E3B2F900462380 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81E2743321E3B2FA00462380;
+			remoteInfo = learning_metal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81E2743421E3B2FA00462380 /* learning_metal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learning_metal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81E2743721E3B2FA00462380 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81E2743921E3B2FA00462380 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81E2743C21E3B2FA00462380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81E2743E21E3B2FF00462380 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81E2744121E3B2FF00462380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81E2744321E3B2FF00462380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81E2744821E3B30000462380 /* learning_metalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = learning_metalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81E2744C21E3B30000462380 /* learning_metalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learning_metalTests.swift; sourceTree = "<group>"; };
+		81E2744E21E3B30000462380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81E2745321E3B30000462380 /* learning_metalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = learning_metalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81E2745721E3B30000462380 /* learning_metalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learning_metalUITests.swift; sourceTree = "<group>"; };
+		81E2745921E3B30000462380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81E2746521E463F900462380 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81E2743121E3B2FA00462380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81E2744521E3B30000462380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81E2745021E3B30000462380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81E2742B21E3B2F900462380 = {
+			isa = PBXGroup;
+			children = (
+				81E2743621E3B2FA00462380 /* learning_metal */,
+				81E2744B21E3B30000462380 /* learning_metalTests */,
+				81E2745621E3B30000462380 /* learning_metalUITests */,
+				81E2743521E3B2FA00462380 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81E2743521E3B2FA00462380 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81E2743421E3B2FA00462380 /* learning_metal.app */,
+				81E2744821E3B30000462380 /* learning_metalTests.xctest */,
+				81E2745321E3B30000462380 /* learning_metalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81E2743621E3B2FA00462380 /* learning_metal */ = {
+			isa = PBXGroup;
+			children = (
+				81E2743721E3B2FA00462380 /* AppDelegate.swift */,
+				81E2743921E3B2FA00462380 /* ViewController.swift */,
+				81E2746521E463F900462380 /* Shaders.metal */,
+				81E2743B21E3B2FA00462380 /* Main.storyboard */,
+				81E2743E21E3B2FF00462380 /* Assets.xcassets */,
+				81E2744021E3B2FF00462380 /* LaunchScreen.storyboard */,
+				81E2744321E3B2FF00462380 /* Info.plist */,
+			);
+			path = learning_metal;
+			sourceTree = "<group>";
+		};
+		81E2744B21E3B30000462380 /* learning_metalTests */ = {
+			isa = PBXGroup;
+			children = (
+				81E2744C21E3B30000462380 /* learning_metalTests.swift */,
+				81E2744E21E3B30000462380 /* Info.plist */,
+			);
+			path = learning_metalTests;
+			sourceTree = "<group>";
+		};
+		81E2745621E3B30000462380 /* learning_metalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81E2745721E3B30000462380 /* learning_metalUITests.swift */,
+				81E2745921E3B30000462380 /* Info.plist */,
+			);
+			path = learning_metalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81E2743321E3B2FA00462380 /* learning_metal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81E2745C21E3B30000462380 /* Build configuration list for PBXNativeTarget "learning_metal" */;
+			buildPhases = (
+				81E2743021E3B2FA00462380 /* Sources */,
+				81E2743121E3B2FA00462380 /* Frameworks */,
+				81E2743221E3B2FA00462380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = learning_metal;
+			productName = learning_metal;
+			productReference = 81E2743421E3B2FA00462380 /* learning_metal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81E2744721E3B30000462380 /* learning_metalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81E2745F21E3B30000462380 /* Build configuration list for PBXNativeTarget "learning_metalTests" */;
+			buildPhases = (
+				81E2744421E3B30000462380 /* Sources */,
+				81E2744521E3B30000462380 /* Frameworks */,
+				81E2744621E3B30000462380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81E2744A21E3B30000462380 /* PBXTargetDependency */,
+			);
+			name = learning_metalTests;
+			productName = learning_metalTests;
+			productReference = 81E2744821E3B30000462380 /* learning_metalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81E2745221E3B30000462380 /* learning_metalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81E2746221E3B30000462380 /* Build configuration list for PBXNativeTarget "learning_metalUITests" */;
+			buildPhases = (
+				81E2744F21E3B30000462380 /* Sources */,
+				81E2745021E3B30000462380 /* Frameworks */,
+				81E2745121E3B30000462380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81E2745521E3B30000462380 /* PBXTargetDependency */,
+			);
+			name = learning_metalUITests;
+			productName = learning_metalUITests;
+			productReference = 81E2745321E3B30000462380 /* learning_metalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81E2742C21E3B2F900462380 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Oracle;
+				TargetAttributes = {
+					81E2743321E3B2FA00462380 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					81E2744721E3B30000462380 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 81E2743321E3B2FA00462380;
+					};
+					81E2745221E3B30000462380 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 81E2743321E3B2FA00462380;
+					};
+				};
+			};
+			buildConfigurationList = 81E2742F21E3B2F900462380 /* Build configuration list for PBXProject "learning_metal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81E2742B21E3B2F900462380;
+			productRefGroup = 81E2743521E3B2FA00462380 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81E2743321E3B2FA00462380 /* learning_metal */,
+				81E2744721E3B30000462380 /* learning_metalTests */,
+				81E2745221E3B30000462380 /* learning_metalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81E2743221E3B2FA00462380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E2744221E3B2FF00462380 /* LaunchScreen.storyboard in Resources */,
+				81E2743F21E3B2FF00462380 /* Assets.xcassets in Resources */,
+				81E2743D21E3B2FA00462380 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81E2744621E3B30000462380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81E2745121E3B30000462380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81E2743021E3B2FA00462380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E2746621E463F900462380 /* Shaders.metal in Sources */,
+				81E2743A21E3B2FA00462380 /* ViewController.swift in Sources */,
+				81E2743821E3B2FA00462380 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81E2744421E3B30000462380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E2744D21E3B30000462380 /* learning_metalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81E2744F21E3B30000462380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E2745821E3B30000462380 /* learning_metalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81E2744A21E3B30000462380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81E2743321E3B2FA00462380 /* learning_metal */;
+			targetProxy = 81E2744921E3B30000462380 /* PBXContainerItemProxy */;
+		};
+		81E2745521E3B30000462380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81E2743321E3B2FA00462380 /* learning_metal */;
+			targetProxy = 81E2745421E3B30000462380 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81E2743B21E3B2FA00462380 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81E2743C21E3B2FA00462380 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81E2744021E3B2FF00462380 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81E2744121E3B2FF00462380 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81E2745A21E3B30000462380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81E2745B21E3B30000462380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81E2745D21E3B30000462380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97X7CDFFLS;
+				INFOPLIST_FILE = learning_metal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "oracle.learning-metal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81E2745E21E3B30000462380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97X7CDFFLS;
+				INFOPLIST_FILE = learning_metal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "oracle.learning-metal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		81E2746021E3B30000462380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = learning_metalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "oracle.learning-metalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/learning_metal.app/learning_metal";
+			};
+			name = Debug;
+		};
+		81E2746121E3B30000462380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = learning_metalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "oracle.learning-metalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/learning_metal.app/learning_metal";
+			};
+			name = Release;
+		};
+		81E2746321E3B30000462380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = learning_metalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "oracle.learning-metalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = learning_metal;
+			};
+			name = Debug;
+		};
+		81E2746421E3B30000462380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = learning_metalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "oracle.learning-metalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = learning_metal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81E2742F21E3B2F900462380 /* Build configuration list for PBXProject "learning_metal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81E2745A21E3B30000462380 /* Debug */,
+				81E2745B21E3B30000462380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81E2745C21E3B30000462380 /* Build configuration list for PBXNativeTarget "learning_metal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81E2745D21E3B30000462380 /* Debug */,
+				81E2745E21E3B30000462380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81E2745F21E3B30000462380 /* Build configuration list for PBXNativeTarget "learning_metalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81E2746021E3B30000462380 /* Debug */,
+				81E2746121E3B30000462380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81E2746221E3B30000462380 /* Build configuration list for PBXNativeTarget "learning_metalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81E2746321E3B30000462380 /* Debug */,
+				81E2746421E3B30000462380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81E2742C21E3B2F900462380 /* Project object */;
+}
